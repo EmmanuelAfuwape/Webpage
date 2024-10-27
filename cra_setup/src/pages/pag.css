@@ -1,0 +1,85 @@
+/* styles.css */
+* .navbar{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    background-image: -webkit-image-set(url(pic2.jpg));
+  }
+
+
+nav {
+    background-color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: right;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.2s ease;
+    text-align: center;
+}
+
+nav ul li a.active {
+    background-color: #555;
+    border-radius: 5px;
+  }
+
+nav ul li a:hover {
+    color: #000000;
+    border-radius:  5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    height: 60px;
+    border-radius: 200px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 50px;
+    box-shadow: 0 30px 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/pic.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    z-index: -1; 
+    border-radius: 50px;
+}

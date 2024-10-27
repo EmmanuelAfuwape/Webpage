@@ -1,0 +1,99 @@
+/* support.css */
+
+.support-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .support-nav {
+    float: right;
+  }
+  
+  .support-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .support-nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .support-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .support-main {
+    padding: 20px;
+  }
+  
+  .support-section {
+    margin-bottom: 40px;
+  }
+  
+  .support-section h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .support-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .support-section li {
+    margin-bottom: 20px;
+  }
+  
+  .support-section h3 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  
+  .support-section p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: Arial, sans-serif;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4d4c4c;
+    border-radius: 25px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
